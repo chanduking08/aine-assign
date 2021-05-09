@@ -1,0 +1,50 @@
+p {
+	font-size: 12px;
+}
+body > .container-fluid > .row {
+	height: 100vh;
+}
+.col-md-1, .videos, .uploadbox {
+	cursor: pointer;
+}
+.col-md-1 .active {
+	background-color: #D0E0ED;
+	border-left: 4px solid #3167BD;
+}
+.inactive {
+	color: #A3AEB4;
+}
+.inactive:hover {
+	background-color: #D0E0ED;
+	border-left: 4px solid #3167BD;
+	color: #212529;
+}
+.logo-shadow {
+	box-shadow: 0 2px 0 #f6f6f6;
+}
+.nav-shadow {
+  box-shadow: 0 0.5rem 3rem #DBDCDE;
+}
+.upload-section {
+	background-color: #F1F2F4;
+	height: 100vh;
+	padding: 30px;
+}
+.videos {
+	color: #8199B1;
+}
+p {
+	margin-bottom: 0 !important;
+	padding-bottom: 16px;
+}
+input {
+	border-radius: 10px;
+  border: none;
+  color: #5B5B5B;
+  font-size: 14px;
+  padding: 10px;
+}
+.uploadbox {
+	min-height: 150px;
+  width: 150px;
+}
